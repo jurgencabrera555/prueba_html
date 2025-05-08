@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seglass - Vidrio Templado</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #0077b6;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background: #023e8a;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .services, .gallery, .contact-form {
+            background: #ffffff;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .gallery-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        form button {
+            background: #0077b6;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            background: #03045e;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Seglass</h1>
+    <p>Expertos en Vidrio Templado</p>
+</header>
+
+<nav>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#galeria">Galería</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="nosotros">
+    <h2>¿Quiénes somos?</h2>
+    <p>En <strong>Seglass</strong>, nos especializamos en la fabricación e instalación de <strong>vidrio templado</strong> de alta calidad. Con más de 10 años de experiencia, ofrecemos soluciones modernas, seguras y estéticas para hogares, oficinas y comercios.</p>
+</section>
+
+<section id="servicios" class="services">
+    <h2>Servicios</h2>
+    <ul>
+        <li>Fabricación de vidrio templado a medida</li>
+        <li>Instalación de barandales y canceles de baño</li>
+        <li>Puertas de vidrio templado</li>
+        <li>Vidrios para fachadas comerciales</li>
+        <li>Asesoría y diseño personalizado</li>
+    </ul>
+</section>
+
+<section id="galeria" class="gallery">
+    <h2>Mejores Empleados</h2>
+    <div class="gallery-container">
+        <img src="img\2.jpg" alt="2.jpg">
+        <img src="img\3.jpg" alt="Vidrio 2">
+        <img src="img\4.jpg" alt="Vidrio 3">
+    </div>
+</section>
+
+<section id="contacto" class="contact-form">
+    <h2>Contacto</h2>
+    <p>¿Tienes un proyecto en mente? Escríbenos:</p>
+    <form action="mailto:contacto@seglass.com" method="post" enctype="text/plain">
+        <input type="text" name="nombre" placeholder="Tu nombre" required>
+        <input type="email" name="correo" placeholder="Tu correo electrónico" required>
+        <textarea name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 Seglass. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
